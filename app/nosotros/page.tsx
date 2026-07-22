@@ -59,7 +59,7 @@ export default function NosotrosPage() {
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
         <Image
-          src="/nosotros-hero.png"
+          src="/images/166398694_117288763766258_4893358634710453469_n.jpg"
           alt="Sobre Nosotros"
           fill
           className="object-cover"

@@ -14,7 +14,7 @@ export default function ContactoPage() {
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
         <Image
-          src="/contacto-hero.png"
+          src="/images/166761875_117289000432901_6483885834259678433_n.jpg"
           alt="Contacto"
           fill
           className="object-cover"

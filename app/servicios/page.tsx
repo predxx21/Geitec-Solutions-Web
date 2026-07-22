@@ -83,7 +83,7 @@ export default function ServiciosPage() {
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
         <Image
-          src="/servicios-hero.png"
+          src="/images/169114850_119168476911620_5724385918861867237_n.jpg"
           alt="Nuestros Servicios"
           fill
           className="object-cover"

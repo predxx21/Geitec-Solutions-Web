@@ -27,8 +27,8 @@ export default function Hero() {
         </div>
         <div className="relative">
           <Image
-            src="/hero-main.png"
-            alt="Equipo de Geitec Solutions - Consultoría en Seguridad Ocupacional"
+            src="/images/166204777_117288797099588_2009752007225196872_n.jpg"
+            alt="Equipo de Centro Integral de Fisioterapia"
             width={500}
             height={400}
             className="rounded-2xl shadow-xl w-full h-auto object-cover"
