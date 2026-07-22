@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Phone, Menu, X } from 'lucide-react'
 import { useState } from 'react'
@@ -16,8 +17,14 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
-            <div className="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center font-bold text-lg">
-              G
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
+              <Image 
+                src="/imagenes_emp/logo.png" 
+                alt="Geitec Solutions Logo" 
+                width={40} 
+                height={40}
+                className="object-cover"
+              />
             </div>
             <div>
               <h1 className="font-bold text-lg">Geitec Solutions</h1>
