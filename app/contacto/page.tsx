@@ -35,7 +35,7 @@ export default function ContactoPage() {
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-2">Teléfono</h3>
             <p className="text-gray-700 mb-4">Llamadas y mensajes</p>
-            <a href="tel:+51930996442" className="text-emerald-600 font-bold hover:text-emerald-700">
+            <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold hover:text-emerald-700">
               +51 930 996 442
             </a>
           </div>
@@ -46,8 +46,8 @@ export default function ContactoPage() {
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-2">Email</h3>
             <p className="text-gray-700 mb-4">Escritos y consultas</p>
-            <a href="mailto:info@geitec-solutions.com" className="text-emerald-600 font-bold hover:text-emerald-700">
-              info@geitec-solutions.com
+            <a href="mailto:geitec.sac@gmail.com" className="text-emerald-600 font-bold hover:text-emerald-700">
+              geitec.sac@gmail.com
             </a>
           </div>
 

@@ -22,7 +22,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold mb-4">Contacto</h3>
             <div className="space-y-2 text-sm">
-              <a href="tel:+51930996442" className="flex items-center gap-2 hover:text-emerald-400">
+              <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-400">
                 <Phone size={16} />
                 +51 930 996 442
               </a>
