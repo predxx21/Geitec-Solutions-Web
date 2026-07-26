@@ -29,7 +29,7 @@ export default function NosotrosPage() {
     }
   ]
 
-  const team = [
+  /* const team = [
     {
       nombre: 'Ing. Carlos Mendoza',
       puesto: 'Director General',
@@ -50,7 +50,7 @@ export default function NosotrosPage() {
       puesto: 'Coordinadora de Proyectos',
       especialidad: 'Coordinación General'
     }
-  ]
+  ] */
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -83,7 +83,7 @@ export default function NosotrosPage() {
               Con más de 15 años de experiencia, hemos trabajado con más de 200 empresas, desde pequeños negocios hasta grandes corporaciones, ayudándolas a cumplir con normativas ambientales y de seguridad.
             </p>
             <p className="text-gray-700 text-lg">
-              Nuestro equipo está conformado por profesionales certificados internacionalmente, comprometidos con la excelencia y la innovación en cada proyecto.
+              Contamos con profesionales certificados internacionalmente, comprometidos con la excelencia y la innovación en cada proyecto.
             </p>
           </div>
           <div className="bg-emerald-600 rounded-lg p-8 text-white">
@@ -159,9 +159,23 @@ export default function NosotrosPage() {
         </div>
       </section>
 
-      {/* Equipo */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="text-4xl font-bold text-center text-slate-900 mb-12">Nuestro Equipo</h2>
+      <section className="bg-white py-16">
+        <div className="max-w-3xl mx-auto px-4">
+          <div className="rounded-2xl border border-emerald-100 bg-gradient-to-br from-emerald-50 to-white p-8 md:p-10 shadow-sm text-center">
+            <p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">Gerencia General</p>
+            <h2 className="text-3xl font-bold text-slate-900 mb-2">Ing. Elvis Ever Huerta Núñez</h2>
+            <p className="text-lg text-emerald-700 font-semibold">Gerente General · Especialista Ambiental</p>
+            <p className="text-slate-600 mt-2">CIP: 261462</p>
+            <div className="mt-7 pt-6 border-t border-emerald-100 flex justify-center">
+              <Image src="/firma-elvis-huerta.png" alt="Firma y sello del Ing. Elvis Ever Huerta Núñez" width={280} height={130} className="h-auto w-64 object-contain mix-blend-multiply" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Equipo eliminado */}
+      {false && <section className="max-w-6xl mx-auto px-4 py-16">
+        <h2 className="text-4xl font-bold text-center text-slate-900 mb-12">Profesionales especializados</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {team.map((member, idx) => (
             <div key={idx} className="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-lg transition">
@@ -174,7 +188,7 @@ export default function NosotrosPage() {
             </div>
           ))}
         </div>
-      </section>
+      </section>}
 
       <Footer />
     </main>

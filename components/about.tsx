@@ -18,7 +18,7 @@ export default function About() {
               Desde nuestra fundación, nos hemos dedicado a ayudar empresas peruanas a mejorar sus estándares de seguridad ocupacional y gestión ambiental.
             </p>
             <p className="text-lg text-slate-600 mb-6">
-              Nuestro equipo de expertos cuenta con certificaciones internacionales y amplia experiencia en diversos sectores industriales, desde manufactura hasta servicios.
+              Nuestros profesionales cuentan con certificaciones internacionales y amplia experiencia en diversos sectores industriales, desde manufactura hasta servicios.
             </p>
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-slate-700">

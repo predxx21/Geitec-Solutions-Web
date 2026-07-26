@@ -15,7 +15,7 @@ export default function Page() {
       <Hero />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-8 text-balance">
-          Conoce Nuestro Equipo y Trabajo
+          Conoce nuestro trabajo
         </h2>
         <Carousel />
       </div>

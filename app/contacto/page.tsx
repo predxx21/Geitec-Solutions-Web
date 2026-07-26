@@ -95,7 +95,7 @@ export default function ContactoPage() {
       <section className="bg-emerald-600 py-12">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">¿Prefieres contactar por WhatsApp?</h2>
-          <p className="text-white/90 mb-6">Conecta directamente con nuestro equipo</p>
+          <p className="text-white/90 mb-6">Conecta directamente con nuestros especialistas</p>
           <a
             href="https://wa.me/51930996442?text=Hola%20Geitec%20Solutions,%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20servicios"
             target="_blank"
