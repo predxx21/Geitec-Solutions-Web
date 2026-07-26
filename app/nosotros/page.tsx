@@ -162,13 +162,10 @@ export default function NosotrosPage() {
       <section className="bg-white py-16">
         <div className="max-w-3xl mx-auto px-4">
           <div className="rounded-2xl border border-emerald-100 bg-gradient-to-br from-emerald-50 to-white p-8 md:p-10 shadow-sm text-center">
-            <p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">Gerencia General</p>
+            <p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">Gerente General</p>
             <h2 className="text-3xl font-bold text-slate-900 mb-2">Ing. Elvis Ever Huerta Núñez</h2>
             <p className="text-lg text-emerald-700 font-semibold">Gerente General · Especialista Ambiental</p>
             <p className="text-slate-600 mt-2">CIP: 261462</p>
-            <div className="mt-7 pt-6 border-t border-emerald-100 flex justify-center">
-              <Image src="/firma-elvis-huerta.png" alt="Firma y sello del Ing. Elvis Ever Huerta Núñez" width={280} height={130} className="h-auto w-64 object-contain mix-blend-multiply" />
-            </div>
           </div>
         </div>
       </section>
