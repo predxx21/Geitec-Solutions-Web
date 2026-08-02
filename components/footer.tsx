@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold mb-4">Geitec Solutions</h3>
             <p className="text-sm">
-              Consultoría especializada en seguridad ocupacional y gestión ambiental en Perú.
+              Consultoría ambiental para empresas y proyectos en Perú.
             </p>
           </div>
           <div>
@@ -25,6 +25,10 @@ export default function Footer() {
               <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-400">
                 <Phone size={16} />
                 +51 930 996 442
+              </a>
+              <a href="https://wa.me/51980970529" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-400">
+                <Phone size={16} />
+                +51 980 970 529
               </a>
               <a href="mailto:geitec.sac@gmail.com" className="flex items-center gap-2 hover:text-emerald-400">
                 <Mail size={16} />

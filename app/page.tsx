@@ -1,10 +1,8 @@
 'use client'
 
-import Link from 'next/link'
 import Header from '@/components/header'
 import Hero from '@/components/hero'
 import Carousel from '@/components/carousel'
-import Services from '@/components/services'
 import About from '@/components/about'
 import Footer from '@/components/footer'
 
@@ -18,12 +16,6 @@ export default function Page() {
           Conoce nuestro trabajo
         </h2>
         <Carousel />
-      </div>
-      <Services />
-      <div className="text-center py-8">
-        <Link href="/servicios" className="inline-block bg-emerald-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-emerald-700 transition">
-          Ver Todos los Servicios
-        </Link>
       </div>
       <About />
       <Footer />

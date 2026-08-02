@@ -83,6 +83,16 @@ export default function ContactoPage() {
         </div>
       </section>
 
+      <section className="max-w-6xl mx-auto px-4 pb-16 -mt-8">
+        <div className="rounded-xl bg-slate-100 px-6 py-5 text-center text-slate-700">
+          <p className="mb-2"><span className="font-bold text-slate-900">Dirección: </span>José Olaya, Calle Central Mz. E, lote 12 - Huaral</p>
+          <span className="font-bold text-slate-900">Teléfonos corporativos: </span>
+          <a href="tel:+51901975553" className="hover:text-emerald-700">+51 901 975 553</a>
+          <span className="mx-2">·</span>
+          <a href="tel:+51948133948" className="hover:text-emerald-700">+51 948 133 948</a>
+        </div>
+      </section>
+
       {/* Formulario de Contacto */}
       <section className="bg-white py-16 border-t border-gray-200">
         <div className="max-w-2xl mx-auto px-4">

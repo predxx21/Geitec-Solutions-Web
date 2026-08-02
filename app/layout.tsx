@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Geitec Solutions | Consultoría en Seguridad Ocupacional y Medio Ambiente',
-  description: 'Consultoría especializada en seguridad ocupacional, gestión ambiental y capacitación empresarial en Huaral, Perú. Servicios certificados ISO con más de 15 años de experiencia.',
+  title: 'Geitec Solutions | Consultoría Ambiental',
+  description: 'Consultoría ambiental en Huaral, Perú: auditorías ambientales, planes de manejo y diagnósticos ambientales.',
   icons: {
     icon: [
       {

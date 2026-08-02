@@ -30,9 +30,12 @@ export default function Header() {
             <Link href="/contacto" className={navClass('/contacto')}>Contacto</Link>
           </nav>
 
-          <div className="hidden lg:flex text-sm">
-            <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-emerald-100 transition">
-              <Phone size={16} /><span>+51 930 996 442</span>
+          <div className="hidden lg:flex flex-col items-end gap-1 text-sm">
+            <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition" aria-label="Escribir al WhatsApp +51 930 996 442">
+              <span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>+51 930 996 442</span>
+            </a>
+            <a href="https://wa.me/51980970529" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition" aria-label="Escribir al WhatsApp +51 980 970 529">
+              <span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>+51 980 970 529</span>
             </a>
           </div>
 
@@ -47,7 +50,8 @@ export default function Header() {
             <Link href="/servicios" className="hover:text-emerald-100 transition py-2">Servicios</Link>
             <Link href="/nosotros" className="hover:text-emerald-100 transition py-2">Nosotros</Link>
             <Link href="/contacto" className="hover:text-emerald-100 transition py-2">Contacto</Link>
-            <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-emerald-100 transition py-2"><Phone size={16} /><span>+51 930 996 442</span></a>
+            <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition py-2"><span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>WhatsApp: +51 930 996 442</span></a>
+            <a href="https://wa.me/51980970529" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition py-2"><span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>WhatsApp: +51 980 970 529</span></a>
           </nav>
         )}
       </div>

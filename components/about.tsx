@@ -15,7 +15,7 @@ export default function About() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Sobre Geitec Solutions</h2>
             <p className="text-lg text-slate-600 mb-4">
-              Desde nuestra fundación, nos hemos dedicado a ayudar empresas peruanas a mejorar sus estándares de seguridad ocupacional y gestión ambiental.
+              Desde nuestra fundación, nos hemos dedicado a ayudar a empresas peruanas a fortalecer su gestión ambiental.
             </p>
             <p className="text-lg text-slate-600 mb-6">
               Nuestros profesionales cuentan con certificaciones internacionales y amplia experiencia en diversos sectores industriales, desde manufactura hasta servicios.
