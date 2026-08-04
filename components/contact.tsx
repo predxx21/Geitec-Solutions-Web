@@ -38,6 +38,9 @@ export default function Contact() {
             <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-700 font-semibold">
               +51 930 996 442
             </a>
+            <a href="https://wa.me/51980970529" target="_blank" rel="noopener noreferrer" className="block mt-2 text-emerald-600 hover:text-emerald-700 font-semibold">
+              +51 980 970 529
+            </a>
           </div>
           <div className="bg-slate-50 rounded-lg p-8 text-center">
             <Mail className="w-10 h-10 text-emerald-600 mx-auto mb-4" />

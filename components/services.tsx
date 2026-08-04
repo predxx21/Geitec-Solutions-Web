@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import { ClipboardList, FileText, Droplets, Recycle, ChartNoAxesCombined, ArrowRight } from 'lucide-react'
+import { ClipboardList, FileText, Droplets, Recycle, ChartNoAxesCombined, ShieldCheck, ArrowRight } from 'lucide-react'
 import { services } from '@/lib/services'
 
-const icons = [ClipboardList, FileText, Droplets, Recycle, ChartNoAxesCombined]
+const icons = [ClipboardList, FileText, Droplets, Recycle, ChartNoAxesCombined, ShieldCheck]
 
 export default function Services() {
   return (

@@ -38,6 +38,9 @@ export default function ContactoPage() {
             <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold hover:text-emerald-700">
               +51 930 996 442
             </a>
+            <a href="https://wa.me/51980970529" target="_blank" rel="noopener noreferrer" className="block mt-2 text-emerald-600 font-bold hover:text-emerald-700">
+              +51 980 970 529
+            </a>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition">
