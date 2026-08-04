@@ -12,7 +12,7 @@ export default function Hero() {
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">Soluciones ambientales para tu proyecto</h1>
           <p className="text-lg text-slate-600 mb-8">Acompañamos a empresas y proyectos con auditorías ambientales, planes de manejo y diagnósticos ambientales para una gestión responsable y ordenada.</p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="https://wa.me/51930996442?text=Hola%20Geitec%20Solutions%2C%20deseo%20solicitar%20una%20consulta." target="_blank" rel="noopener noreferrer" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition">Solicitar Consulta <ArrowRight size={20} /></a>
+            <Link href="/contacto#consulta" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition">Solicitar Consulta <ArrowRight size={20} /></Link>
             <Link href="/servicios" className="border-2 border-slate-300 hover:border-emerald-600 text-slate-900 px-8 py-3 rounded-lg font-semibold transition text-center">Conocer más</Link>
           </div>
         </div>

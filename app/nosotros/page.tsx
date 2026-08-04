@@ -20,6 +20,44 @@ const companyDetails = [
   ['Actividad comercial', 'Investigación de ciencias naturales'],
 ]
 
+const staff = [
+  {
+    role: 'Gerente General',
+    name: 'Ing. Elvis Ever Huerta Núñez',
+    title: 'Especialista Ambiental',
+    credential: 'CIP: 261462',
+    description: null,
+    featured: true,
+  },
+  {
+    role: 'Profesional del staff',
+    name: 'Tito Hayron Gonzales Ortega',
+    title: 'Especialista SST',
+    credential: 'CIP N.º 392375',
+    description:
+      'Auditor Interno en Sistemas Integrados de Gestión ISO 9001, ISO 14001 e ISO 45001, con cerca de 7 años de experiencia en proyectos de construcción, industria, electricidad, logística y retail.',
+    featured: false,
+  },
+  {
+    role: 'Profesional del staff',
+    name: 'Biól. Carla Johanna Cepeda Agurto',
+    title: 'Especialista en Gestión Ambiental',
+    credential: 'CBP: 13200',
+    description:
+      'Bióloga con más de 12 años de experiencia en gestión ambiental, evaluación de contaminantes y cumplimiento normativo. Especialista en elaboración y evaluación de instrumentos de gestión ambiental (DIA, IGAC), monitoreo ambiental e inocuidad alimentaria. Participó como Especialista Ambiental en GEITEC SOLUTIONS y cuenta con trayectoria en sector agroindustrial y atención ante entidades como OEFA, ANA y SEDAPAL.',
+    featured: false,
+  },
+  {
+    role: 'Profesional del staff',
+    name: 'Ing. Yennifeer Yuliana Arévalo Villafuerte',
+    title: 'Ingeniera Ambiental',
+    credential: 'CIP: 238411',
+    description:
+      'Ingeniera ambiental colegiada, con maestría en Ecología y Gestión Ambiental y doctorado en Ciencias Ambientales concluido. Docente universitaria e investigadora con experiencia en monitoreo ambiental de múltiples matrices (agua, suelo, aire, ruido), evaluación de impacto ambiental, elaboración de instrumentos de gestión ambiental y capacitación en gestión ambiental, calidad y seguridad ocupacional.',
+    featured: false,
+  },
+]
+
 export default function NosotrosPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -63,7 +101,34 @@ export default function NosotrosPage() {
 
       <section className="bg-white py-16 border-y border-gray-100"><div className="max-w-6xl mx-auto px-4"><h2 className="text-4xl font-bold text-center text-slate-900 mb-12">Nuestros valores</h2><div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">{values.map((value) => { const Icon = value.icon; return <div key={value.title} className="text-center"><div className="bg-emerald-100 w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"><Icon size={32} className="text-emerald-600" /></div><h3 className="text-xl font-bold text-slate-900 mb-2">{value.title}</h3><p className="text-gray-600">{value.description}</p></div> })}</div></div></section>
 
-      <section className="bg-white py-16"><div className="max-w-6xl mx-auto px-4"><div className="text-center max-w-2xl mx-auto mb-10"><p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">Nuestro staff</p><h2 className="text-3xl md:text-4xl font-bold text-slate-900">Profesionales que nos respaldan</h2></div><div className="grid lg:grid-cols-2 gap-6 items-stretch"><article className="rounded-2xl border border-emerald-100 bg-gradient-to-br from-emerald-50 to-white p-8 shadow-sm"><p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">Gerente General</p><h3 className="text-2xl font-bold text-slate-900 mb-2">Ing. Elvis Ever Huerta Núñez</h3><p className="text-lg text-emerald-700 font-semibold">Especialista Ambiental</p><p className="text-slate-600 mt-2">CIP: 261462</p></article><article className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"><p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">Profesional del staff</p><h3 className="text-2xl font-bold text-slate-900 mb-2">Tito Hayron Gonzales Ortega</h3><p className="text-lg text-emerald-700 font-semibold">Ingeniero Ambiental · CIP N.º 392375</p><p className="text-slate-600 mt-4 leading-relaxed">Auditor Interno en Sistemas Integrados de Gestión ISO 9001, ISO 14001 e ISO 45001, con cerca de 7 años de experiencia en proyectos de construcción, industria, electricidad, logística y retail.</p></article></div></div></section>
+      <section className="bg-white py-16">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">Nuestro staff</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Profesionales que nos respaldan</h2>
+          </div>
+          <div className="grid lg:grid-cols-2 gap-6 items-stretch">
+            {staff.map((member) => (
+              <article
+                key={member.name}
+                className={`rounded-2xl border p-8 shadow-sm ${
+                  member.featured
+                    ? 'border-emerald-100 bg-gradient-to-br from-emerald-50 to-white'
+                    : 'border-slate-200 bg-white'
+                }`}
+              >
+                <p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">{member.role}</p>
+                <h3 className="text-2xl font-bold text-slate-900 mb-2">{member.name}</h3>
+                <p className="text-lg text-emerald-700 font-semibold">{member.title}</p>
+                {member.credential && <p className="text-slate-600 mt-2">{member.credential}</p>}
+                {member.description && (
+                  <p className="text-slate-600 mt-4 leading-relaxed">{member.description}</p>
+                )}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
       <Footer />
     </main>
   )

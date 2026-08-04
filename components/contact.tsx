@@ -19,8 +19,11 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Create WhatsApp message
-    const message = `Hola, me gustaría solicitar información sobre los servicios de Geitec Solutions.\n\nNombre: ${formData.name}\nEmpresa: ${formData.company}\nTeléfono: ${formData.phone}\nEmail: ${formData.email}\n\nMensaje: ${formData.message}`
+    const message = `Hola Geitec Solutions, deseo solicitar una consulta, mi nombre es ${formData.name}
+Email: ${formData.email}
+Celular o Telefono: ${formData.phone}
+La empresa: ${formData.company}
+Mi consulta es: ${formData.message}`
     const whatsappUrl = `https://wa.me/51930996442?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
     setFormData({ name: '', email: '', phone: '', company: '', message: '' })
@@ -58,7 +61,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="max-w-md mx-auto bg-slate-50 rounded-lg p-8 border border-emerald-200">
+        <div id="consulta" className="max-w-md mx-auto bg-slate-50 rounded-lg p-8 border border-emerald-200 scroll-mt-24">
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"
