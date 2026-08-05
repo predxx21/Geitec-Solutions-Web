@@ -1,9 +1,9 @@
 import { Award, Target, Users, TrendingUp } from 'lucide-react'
 
 const stats = [
-  { icon: Award, label: 'Años de Experiencia', value: '15+' },
-  { icon: Users, label: 'Empresas Asesoradas', value: '200+' },
-  { icon: Target, label: 'Profesionales Certificados', value: '50+' },
+  { icon: Award, label: 'Años de Experiencia', value: '+5' },
+  { icon: Users, label: 'Empresas Asesoradas', value: '+50' },
+  { icon: Target, label: 'Personal Certificado', value: '+10' },
   { icon: TrendingUp, label: 'Tasa de Satisfacción', value: '98%' }
 ]
 
