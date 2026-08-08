@@ -44,7 +44,7 @@ const staff = [
     title: 'Especialista en Gestión Ambiental',
     credential: 'CBP: 13200',
     description:
-      'Bióloga con más de 12 años de experiencia en gestión ambiental, evaluación de contaminantes y cumplimiento normativo. Especialista en elaboración y evaluación de instrumentos de gestión ambiental (DIA, IGAC), monitoreo ambiental e inocuidad alimentaria. Participó como Especialista Ambiental en GEITEC SOLUTIONS y cuenta con trayectoria en sector agroindustrial y atención ante entidades como OEFA, ANA y SEDAPAL.',
+      'Bióloga con más de 12 años de experiencia en gestión ambiental, evaluación de contaminantes y cumplimiento normativo. Especialista en elaboración y evaluación de instrumentos de gestión ambiental (DIA, IGAC), monitoreo ambiental e inocuidad alimentaria. Cuenta con trayectoria en sector agroindustrial y atención ante entidades como OEFA, ANA y SEDAPAL.',
     featured: false,
   },
   {

@@ -62,6 +62,7 @@ Mi consulta es: ${formData.message}`
         </div>
 
         <div id="consulta" className="max-w-md mx-auto bg-slate-50 rounded-lg p-8 border border-emerald-200 scroll-mt-24">
+          <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6 text-center">Envíanos tu mensaje</h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"

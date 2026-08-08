@@ -97,9 +97,8 @@ export default function ContactoPage() {
       </section>
 
       {/* Formulario de Contacto */}
-      <section className="bg-white py-16 border-t border-gray-200">
+      <section className="bg-white py-12 border-t border-gray-200">
         <div className="max-w-2xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-slate-900 mb-12">Envíanos tu Mensaje</h2>
           <Contact />
         </div>
       </section>

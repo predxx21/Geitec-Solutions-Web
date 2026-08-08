@@ -18,12 +18,12 @@ export default function About() {
               Desde nuestra fundación, nos hemos dedicado a ayudar a empresas peruanas a fortalecer su gestión ambiental.
             </p>
             <p className="text-lg text-slate-600 mb-6">
-              Nuestros profesionales cuentan con certificaciones internacionales y amplia experiencia en diversos sectores industriales, desde manufactura hasta servicios.
+              Nuestro equipo de trabajo cuenta con una amplia experiencia en brindar soluciones ambientales en los diferentes sectores productivos.
             </p>
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-slate-700">
                 <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
-                Consultores con certificación ISO
+                Consultores altamente calificados
               </li>
               <li className="flex items-center gap-3 text-slate-700">
                 <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
