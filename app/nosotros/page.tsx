@@ -27,7 +27,18 @@ const staff = [
     title: 'Especialista Ambiental',
     credential: 'CIP: 261462',
     description: null,
+    image: '/staff/elvis-huerta.png',
     featured: true,
+  },
+  {
+    role: 'Profesional del staff',
+    name: 'Fernando Allende León Esparza',
+    title: 'Especialista en Compostaje y Valorización de Residuos Orgánicos',
+    credential: null,
+    description:
+      'Especialista con más de 17 años de experiencia en el manejo, tratamiento y valorización de residuos orgánicos mediante compostaje, producción de bioinsumos (bioles y biocompost) y optimización de suelos.',
+    image: '/staff/fernando-leon.png',
+    featured: false,
   },
   {
     role: 'Profesional del staff',
@@ -36,6 +47,7 @@ const staff = [
     credential: 'CIP N.º 392375',
     description:
       'Auditor Interno en Sistemas Integrados de Gestión ISO 9001, ISO 14001 e ISO 45001, con cerca de 7 años de experiencia en proyectos de construcción, industria, electricidad, logística y retail.',
+    image: '/staff/tito-gonzales.png',
     featured: false,
   },
   {
@@ -45,6 +57,7 @@ const staff = [
     credential: 'CBP: 13200',
     description:
       'Bióloga con más de 12 años de experiencia en gestión ambiental, evaluación de contaminantes y cumplimiento normativo. Especialista en elaboración y evaluación de instrumentos de gestión ambiental (DIA, IGAC), monitoreo ambiental e inocuidad alimentaria. Cuenta con trayectoria en sector agroindustrial y atención ante entidades como OEFA, ANA y SEDAPAL.',
+    image: '/staff/carla-cepeda.jpg',
     featured: false,
   },
   {
@@ -54,6 +67,7 @@ const staff = [
     credential: 'CIP: 238411',
     description:
       'Ingeniera ambiental colegiada, con maestría en Ecología y Gestión Ambiental y doctorado en Ciencias Ambientales concluido. Docente universitaria e investigadora con experiencia en monitoreo ambiental de múltiples matrices (agua, suelo, aire, ruido), evaluación de impacto ambiental, elaboración de instrumentos de gestión ambiental y capacitación en gestión ambiental, calidad y seguridad ocupacional.',
+    image: '/staff/yennifeer-arevalo.png',
     featured: false,
   },
 ]
@@ -111,19 +125,35 @@ export default function NosotrosPage() {
             {staff.map((member) => (
               <article
                 key={member.name}
-                className={`rounded-2xl border p-8 shadow-sm ${
+                className={`rounded-2xl border p-6 md:p-8 shadow-sm flex flex-col sm:flex-row gap-6 items-center sm:items-start ${
                   member.featured
                     ? 'border-emerald-100 bg-gradient-to-br from-emerald-50 to-white'
                     : 'border-slate-200 bg-white'
                 }`}
               >
-                <p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-3">{member.role}</p>
-                <h3 className="text-2xl font-bold text-slate-900 mb-2">{member.name}</h3>
-                <p className="text-lg text-emerald-700 font-semibold">{member.title}</p>
-                {member.credential && <p className="text-slate-600 mt-2">{member.credential}</p>}
-                {member.description && (
-                  <p className="text-slate-600 mt-4 leading-relaxed">{member.description}</p>
+                {member.image ? (
+                  <div className="relative w-28 h-28 sm:w-32 sm:h-32 shrink-0 rounded-full overflow-hidden border-2 border-emerald-500 shadow-md">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className="w-28 h-28 sm:w-32 sm:h-32 shrink-0 rounded-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-3xl border-2 border-emerald-500 shadow-md">
+                    {member.name.replace(/^Ing\.\s*|^Biól\.\s*/i, '').split(' ').map(n => n[0]).slice(0, 2).join('')}
+                  </div>
                 )}
+                <div className="flex-1 text-center sm:text-left">
+                  <p className="text-sm font-bold tracking-[0.16em] uppercase text-emerald-700 mb-2">{member.role}</p>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-1">{member.name}</h3>
+                  <p className="text-lg text-emerald-700 font-semibold">{member.title}</p>
+                  {member.credential && <p className="text-slate-600 mt-1 text-sm">{member.credential}</p>}
+                  {member.description && (
+                    <p className="text-slate-600 mt-3 text-sm leading-relaxed">{member.description}</p>
+                  )}
+                </div>
               </article>
             ))}
           </div>
