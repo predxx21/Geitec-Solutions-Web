@@ -63,7 +63,7 @@ const staff = [
   {
     role: 'Profesional del staff',
     name: 'Ing. Yennifeer Yuliana Arévalo Villafuerte',
-    title: 'Ingeniera Ambiental',
+    title: 'Especialista de Proyectos',
     credential: 'CIP: 238411',
     description:
       'Ingeniera ambiental colegiada, con maestría en Ecología y Gestión Ambiental y doctorado en Ciencias Ambientales concluido. Docente universitaria e investigadora con experiencia en monitoreo ambiental de múltiples matrices (agua, suelo, aire, ruido), evaluación de impacto ambiental, elaboración de instrumentos de gestión ambiental y capacitación en gestión ambiental, calidad y seguridad ocupacional.',
