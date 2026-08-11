@@ -132,13 +132,15 @@ export default function NosotrosPage() {
                 }`}
               >
                 {member.image ? (
-                  <div className="relative w-28 h-28 sm:w-32 sm:h-32 shrink-0 rounded-full overflow-hidden border-2 border-emerald-500 shadow-md">
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      className="object-cover"
-                    />
+                  <div className="relative w-28 h-28 sm:w-32 sm:h-32 shrink-0 rounded-full overflow-hidden border-2 border-emerald-500 shadow-md bg-slate-50 p-1">
+                    <div className="relative w-full h-full rounded-full overflow-hidden">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        fill
+                        className="object-contain object-top"
+                      />
+                    </div>
                   </div>
                 ) : (
                   <div className="w-28 h-28 sm:w-32 sm:h-32 shrink-0 rounded-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-3xl border-2 border-emerald-500 shadow-md">
