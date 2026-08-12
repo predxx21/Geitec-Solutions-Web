@@ -52,7 +52,7 @@ const staff = [
   },
   {
     role: 'Profesional del staff',
-    name: 'Biól. Carla Johanna Cepeda Agurto',
+    name: 'Blga. Carla Johanna Cepeda Agurto',
     title: 'Especialista en Gestión Ambiental',
     credential: 'CBP: 13200',
     description:
@@ -68,6 +68,16 @@ const staff = [
     description:
       'Ingeniera ambiental colegiada, con maestría en Ecología y Gestión Ambiental y doctorado en Ciencias Ambientales concluido. Docente universitaria e investigadora con experiencia en monitoreo ambiental de múltiples matrices (agua, suelo, aire, ruido), evaluación de impacto ambiental, elaboración de instrumentos de gestión ambiental y capacitación en gestión ambiental, calidad y seguridad ocupacional.',
     image: '/staff/yennifeer-arevalo.png',
+    featured: false,
+  },
+  {
+    role: 'Profesional del staff',
+    name: 'Ing. Yotnan Ames Solórzano Chávez',
+    title: 'Especialista en Minería',
+    credential: null,
+    description:
+      'Ingeniero Ambiental colegiado, con más de 5 años de experiencia profesional en la elaboración y seguimiento de Instrumentos de Gestión Ambiental (IGA), incluyendo DIA, EIA-sd e IGAFOM para la formalización minera. Especialista en la implementación y seguimiento de Sistemas de Gestión de Seguridad y Salud Ocupacional en el sector minero, así como en capacitaciones y sensibilización ambiental.',
+    image: '/staff/yotnan-solorzano.png',
     featured: false,
   },
 ]
