@@ -31,6 +31,16 @@ const staff = [
     featured: true,
   },
   {
+    role: 'Sub Gerente General',
+    name: 'Juan Pablo Angel Huerta Nuñez',
+    title: 'Especialista en Gestión SST y Monitoreo Ambiental',
+    credential: null,
+    description:
+      'Directivo y especialista a cargo de la planificación, control operativo y ejecución integral de los servicios de consultoría. Amplia experiencia en el diseño e implementación de Sistemas de Gestión de Seguridad y Salud en el Trabajo (SST), ejecución de monitoreos ambientales y ocupacionales, y supervisión técnica en obras civiles e industriales.',
+    image: '/staff/juan-pablo-huerta.png',
+    featured: true,
+  },
+  {
     role: 'Profesional del staff',
     name: 'Fernando Allende León Esparza',
     title: 'Especialista en Compostaje y Valorización de Residuos Orgánicos',
