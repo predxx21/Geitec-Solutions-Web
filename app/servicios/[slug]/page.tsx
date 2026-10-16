@@ -45,12 +45,18 @@ export default async function ServicioDetallePage({ params }: { params: Promise<
           </aside>
         </div>
 
-        <div className="mt-16">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">Nuestro trabajo</h2>
-          <div className="grid md:grid-cols-3 gap-5">
-            {service.gallery.map((image, index) => <div key={image} className="relative h-64 rounded-xl overflow-hidden shadow-sm"><Image src={image} alt={`${service.title} - foto ${index + 1}`} fill className="object-cover" /></div>)}
+        {service.gallery.length > 0 && (
+          <div className="mt-16">
+            <h2 className="text-2xl font-bold text-slate-900 mb-6">Nuestro trabajo</h2>
+            <div className="grid md:grid-cols-3 gap-5">
+              {service.gallery.map((image, index) => (
+                <div key={image} className="relative h-64 rounded-xl overflow-hidden shadow-sm">
+                  <Image src={image} alt={`${service.title} - foto ${index + 1}`} fill className="object-cover" />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </section>
       <Footer />
     </main>

@@ -45,7 +45,7 @@ export const services: Service[] = [
       "/imagenes_emp/Planes y Estudios Ambientales/473835697_1020779970083795_1266458332939657947_n.jpg",
       "/imagenes_emp/Planes y Estudios Ambientales/473896173_1020779973417128_3293334392488098136_n.jpg",
       "/imagenes_emp/Planes y Estudios Ambientales/511971636_724367406863093_3376002618814254219_n.jpg",
-      "/imagenes_emp/Planes y Estudios Ambientales/512786420_724367570196410_7324260040879456535_n.jpg"
+      "/imagenes_emp/Planes y Estudios Ambientales/825268411_1092398053393358_1120658434461731069_n.jpg"
     ],
     details: [
       'Planes de Manejo de Residuos Sólidos y Estrategia Ambiental',
@@ -60,14 +60,14 @@ export const services: Service[] = [
     title: 'Agua y Saneamiento',
     shortDescription: 'Estudios, permisos y monitoreos para proyectos de agua y saneamiento básico.',
     description: 'Brindamos soporte técnico para proyectos de saneamiento, uso de agua, monitoreo de calidad y autorizaciones vinculadas a aguas residuales.',
-    image: "/imagenes_emp/Agua y Saneamiento/476334999_618085407491294_7026623155207524481_n.jpg",
+    image: "/imagenes_emp/Agua y Saneamiento/IMG_3.JPG.jpg",
     gallery: [
-      "/imagenes_emp/Agua y Saneamiento/476334999_618085407491294_7026623155207524481_n.jpg",
-      "/imagenes_emp/Agua y Saneamiento/480541484_631004519532716_7443813489230994962_n.jpg",
-      "/imagenes_emp/Agua y Saneamiento/480663042_627038333262668_2212220211617641216_n.jpg",
-      "/imagenes_emp/Agua y Saneamiento/480736132_631004369532731_7674476172204725050_n.jpg",
-      "/imagenes_emp/Agua y Saneamiento/480743488_631004482866053_2744778851374365017_n.jpg",
-      "/imagenes_emp/Agua y Saneamiento/626916293_899062766060222_4253385868916914065_n.jpg"
+      "/imagenes_emp/Agua y Saneamiento/IMG_3.JPG.jpg",
+      "/imagenes_emp/Agua y Saneamiento/IMG_9279.JPG",
+      "/imagenes_emp/Agua y Saneamiento/IMG_9288.JPG",
+      "/imagenes_emp/Agua y Saneamiento/IMG_9293.JPG",
+      "/imagenes_emp/Agua y Saneamiento/IMG_9295.JPG",
+      "/imagenes_emp/Agua y Saneamiento/IMG_9312.JPG"
     ],
     details: [
       'Monitoreo e informe de monitoreo de aguas residuales industriales y domésticas',
@@ -82,14 +82,14 @@ export const services: Service[] = [
     title: 'Gestión de Residuos Sólidos',
     shortDescription: 'Planes, estudios y soporte técnico para la gestión responsable de residuos.',
     description: 'Acompañamos la planificación y gestión integral de residuos sólidos, desde la caracterización hasta su valorización y disposición final.',
-    image: "/imagenes_emp/Gestión de Residuos Sólidos/474204576_1022559796572479_6129323149790558161_n.jpg",
+    image: "/imagenes_emp/Gestión de Residuos Sólidos/469039895_989496733212119_3554277169438641802_n.jpg",
     gallery: [
-      "/imagenes_emp/Gestión de Residuos Sólidos/474204576_1022559796572479_6129323149790558161_n.jpg",
-      "/imagenes_emp/Gestión de Residuos Sólidos/480706438_627038086596026_7507329938313020676_n.jpg",
-      "/imagenes_emp/Gestión de Residuos Sólidos/480755594_631004749532693_3350590188144313413_n.jpg",
-      "/imagenes_emp/Gestión de Residuos Sólidos/480768583_627038299929338_1808869543600180473_n.jpg",
-      "/imagenes_emp/Gestión de Residuos Sólidos/628417568_899062889393543_265418123309788357_n.jpg",
-      "/fotos_geitec/residuos_solidos/IMG_6612.JPG"
+      "/imagenes_emp/Gestión de Residuos Sólidos/469039895_989496733212119_3554277169438641802_n.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/469216199_989496949878764_5900629636491354809_n.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/469047039_989497173212075_4910974517887183186_n.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/469180894_989496893212103_4266829108238764625_n.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/469045319_989496833212109_1623679341287610068_n.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/468952096_989496889878770_5642539860639832963_n.jpg"
     ],
     details: [
       'Planes Integrales de Gestión Ambiental de Residuos Sólidos (PIGARS)',
@@ -127,12 +127,12 @@ export const services: Service[] = [
     description: 'Realizamos actividades de saneamiento ambiental para mantener espacios, reservorios y sistemas sanitarios en condiciones adecuadas.',
     image: "/imagenes_emp/Saneamiento Ambiental/705350756_983508304282334_6176658677831584751_n.jpg",
     gallery: [
+      "/imagenes_emp/Saneamiento Ambiental/169114850_119168476911620_5724385918861867237_n.jpg",
+      "/imagenes_emp/Saneamiento Ambiental/169492865_119168433578291_757337444756738469_n.jpg",
+      "/imagenes_emp/Saneamiento Ambiental/626916293_899062766060222_4253385868916914065_n.jpg",
+      "/imagenes_emp/Saneamiento Ambiental/627176758_899062762726889_2549969134499995297_n.jpg",
       "/imagenes_emp/Saneamiento Ambiental/705350756_983508304282334_6176658677831584751_n.jpg",
-      "/imagenes_emp/Saneamiento Ambiental/705453066_983508300949001_2748229626027785679_n.jpg",
-      "/imagenes_emp/Saneamiento Ambiental/705790409_983508364282328_1184282213209143364_n.jpg",
-      "/imagenes_emp/Saneamiento Ambiental/706189552_983508307615667_9091614098236814001_n.jpg",
-      "/fotos_geitec/saneamiento_ambiental/IMG_7376.JPG",
-      "/fotos_geitec/saneamiento_ambiental/IMG_7379.JPG"
+      "/imagenes_emp/Saneamiento Ambiental/705453066_983508300949001_2748229626027785679_n.jpg"
     ],
     details: [
       'Desinsectación, Desinfección y Desratización',
