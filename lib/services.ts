@@ -21,7 +21,11 @@ export const services: Service[] = [
       "/imagenes_emp/Instrumentos de Gestión Ambiental/480781784_631004472866054_8262965074594808584_n.jpg",
       "/imagenes_emp/Instrumentos de Gestión Ambiental/480933807_631004402866061_4891730414462799193_n.jpg",
       "/imagenes_emp/Instrumentos de Gestión Ambiental/480965793_631004416199393_4446907599714380618_n.jpg",
-      "/imagenes_emp/Instrumentos de Gestión Ambiental/513355981_724367376863096_2383289641127504933_n.jpg"
+      "/imagenes_emp/Instrumentos de Gestión Ambiental/513355981_724367376863096_2383289641127504933_n.jpg",
+      "/imagenes_emp/Instrumentos de Gestión Ambiental/iga-taller-equipo.jpg",
+      "/imagenes_emp/Instrumentos de Gestión Ambiental/iga-visita-campo-comercio.jpg",
+      "/imagenes_emp/Instrumentos de Gestión Ambiental/iga-monitoreo-cultivo.jpg",
+      "/imagenes_emp/Instrumentos de Gestión Ambiental/iga-inspeccion-ganaderia.jpg"
     ],
     details: [
       'Declaración de Impacto Ambiental (DIA)',
@@ -45,7 +49,11 @@ export const services: Service[] = [
       "/imagenes_emp/Planes y Estudios Ambientales/473835697_1020779970083795_1266458332939657947_n.jpg",
       "/imagenes_emp/Planes y Estudios Ambientales/473896173_1020779973417128_3293334392488098136_n.jpg",
       "/imagenes_emp/Planes y Estudios Ambientales/511971636_724367406863093_3376002618814254219_n.jpg",
-      "/imagenes_emp/Planes y Estudios Ambientales/825268411_1092398053393358_1120658434461731069_n.jpg"
+      "/imagenes_emp/Planes y Estudios Ambientales/825268411_1092398053393358_1120658434461731069_n.jpg",
+      "/imagenes_emp/Planes y Estudios Ambientales/825268502_1092397926726704_5605447558330068917_n.jpg",
+      "/imagenes_emp/Planes y Estudios Ambientales/513086950_724367486863085_2347696778183353687_n.jpg",
+      "/imagenes_emp/Planes y Estudios Ambientales/planes-radio-2.jpg",
+      "/imagenes_emp/Planes y Estudios Ambientales/planes-radio-primer-plano.jpg"
     ],
     details: [
       'Planes de Manejo de Residuos Sólidos y Estrategia Ambiental',
@@ -67,7 +75,11 @@ export const services: Service[] = [
       "/imagenes_emp/Agua y Saneamiento/IMG_9288.JPG",
       "/imagenes_emp/Agua y Saneamiento/IMG_9293.JPG",
       "/imagenes_emp/Agua y Saneamiento/IMG_9295.JPG",
-      "/imagenes_emp/Agua y Saneamiento/IMG_9312.JPG"
+      "/imagenes_emp/Agua y Saneamiento/IMG_9312.JPG",
+      "/imagenes_emp/Agua y Saneamiento/agua-planta-tratamiento.jpg",
+      "/imagenes_emp/Agua y Saneamiento/agua-muestreo-rio.jpg",
+      "/imagenes_emp/Agua y Saneamiento/agua-evaluacion-reservorio.jpg",
+      "/imagenes_emp/Agua y Saneamiento/IMG_6702.JPG"
     ],
     details: [
       'Monitoreo e informe de monitoreo de aguas residuales industriales y domésticas',
@@ -89,7 +101,11 @@ export const services: Service[] = [
       "/imagenes_emp/Gestión de Residuos Sólidos/469047039_989497173212075_4910974517887183186_n.jpg",
       "/imagenes_emp/Gestión de Residuos Sólidos/469180894_989496893212103_4266829108238764625_n.jpg",
       "/imagenes_emp/Gestión de Residuos Sólidos/469045319_989496833212109_1623679341287610068_n.jpg",
-      "/imagenes_emp/Gestión de Residuos Sólidos/468952096_989496889878770_5642539860639832963_n.jpg"
+      "/imagenes_emp/Gestión de Residuos Sólidos/468952096_989496889878770_5642539860639832963_n.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/residuos-punto-segregacion.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/residuos-recoleccion-transporte.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/residuos-segregacion-campo.jpg",
+      "/imagenes_emp/Gestión de Residuos Sólidos/residuos-visita-planta-industrial.jpg"
     ],
     details: [
       'Planes Integrales de Gestión Ambiental de Residuos Sólidos (PIGARS)',
@@ -110,7 +126,11 @@ export const services: Service[] = [
       "/imagenes_emp/Monitoreo Ambiental/472047342_1010250464470079_1507295055939426245_n.jpg",
       "/imagenes_emp/Monitoreo Ambiental/473619898_603361905630311_7713825128333753469_n.jpg",
       "/imagenes_emp/Monitoreo Ambiental/474201958_1022127853282340_813494842641749728_n.jpg",
-      "/imagenes_emp/Monitoreo Ambiental/513222491_724367426863091_4928646106885849177_n.jpg"
+      "/imagenes_emp/Monitoreo Ambiental/513222491_724367426863091_4928646106885849177_n.jpg",
+      "/imagenes_emp/Monitoreo Ambiental/monitoreo-calidad-aire.jpg",
+      "/imagenes_emp/Monitoreo Ambiental/monitoreo-ruido-obra.jpg",
+      "/imagenes_emp/Monitoreo Ambiental/monitoreo-ruido-almacen.jpg",
+      "/imagenes_emp/Monitoreo Ambiental/monitoreo-agua-planta.jpg"
     ],
     details: [
       'Monitoreo de Agua y Aire',
@@ -132,7 +152,11 @@ export const services: Service[] = [
       "/imagenes_emp/Saneamiento Ambiental/626916293_899062766060222_4253385868916914065_n.jpg",
       "/imagenes_emp/Saneamiento Ambiental/627176758_899062762726889_2549969134499995297_n.jpg",
       "/imagenes_emp/Saneamiento Ambiental/705350756_983508304282334_6176658677831584751_n.jpg",
-      "/imagenes_emp/Saneamiento Ambiental/705453066_983508300949001_2748229626027785679_n.jpg"
+      "/imagenes_emp/Saneamiento Ambiental/705453066_983508300949001_2748229626027785679_n.jpg",
+      "/imagenes_emp/Saneamiento Ambiental/saneamiento-desinfeccion.jpg",
+      "/imagenes_emp/Saneamiento Ambiental/saneamiento-desratizacion.jpg",
+      "/imagenes_emp/Saneamiento Ambiental/saneamiento-reservorio.jpg",
+      "/imagenes_emp/Saneamiento Ambiental/saneamiento-analisis.jpg"
     ],
     details: [
       'Desinsectación, Desinfección y Desratización',
@@ -153,7 +177,11 @@ export const services: Service[] = [
       "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/476276037_620245497275285_1135769972318513967_n.jpg",
       "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/669860104_949536814346150_8095993091027017109_n.jpg",
       "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/670929745_949536904346141_7666149206822631777_n.jpg",
-      "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/705521471_983508397615658_8016067075416411450_n.jpg"
+      "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/705521471_983508397615658_8016067075416411450_n.jpg",
+      "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/sst-capacitacion.jpg",
+      "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/sst-visita-campo.jpg",
+      "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/480497190_627008573265644_7043973017538419833_n.jpg",
+      "/imagenes_emp/Seguridad y Salud Ocupacional (SST)/474587522_1022559809905811_2707409600077099058_n.jpg"
     ],
     details: [
       'Implementación del Sistema de Gestión de Seguridad y Salud Ocupacional',
