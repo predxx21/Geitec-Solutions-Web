@@ -12,12 +12,12 @@ export default function ContactoPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-96 overflow-hidden">
+      <section className="relative h-[24rem] sm:h-96 md:h-[26rem] overflow-hidden bg-slate-900">
         <Image
           src="/images/166761875_117289000432901_6483885834259678433_n.jpg"
           alt="Contacto"
           fill
-          className="object-cover"
+          className="object-contain sm:object-cover object-[center_28%]"
         />
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center">

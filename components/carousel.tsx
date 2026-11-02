@@ -43,7 +43,7 @@ export default function Carousel() {
 
   return (
     <div 
-      className="relative w-full h-96 md:h-screen max-h-[600px] md:max-h-full overflow-hidden rounded-lg shadow-2xl"
+      className="relative w-full max-w-5xl mx-auto aspect-[4/3] sm:aspect-[3/2] overflow-hidden rounded-lg shadow-2xl bg-slate-950"
       onMouseEnter={() => setAutoPlay(false)}
       onMouseLeave={() => setAutoPlay(true)}
     >
@@ -59,11 +59,11 @@ export default function Carousel() {
             src={image}
             alt={`Slide ${index + 1}`}
             fill
-            className="object-cover"
+            className="object-contain"
             priority={index === 0}
           />
           {/* Overlay gradiente */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/35 to-transparent"></div>
         </div>
       ))}
 
