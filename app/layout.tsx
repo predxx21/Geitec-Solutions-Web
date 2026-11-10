@@ -8,16 +8,18 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: '/favicon.ico',
+        sizes: 'any',
+      },
+      {
+        url: '/icon-512.png',
+        type: 'image/png',
+        sizes: '512x512',
+      },
+      {
         url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        type: 'image/png',
+        sizes: '32x32',
       },
     ],
     apple: '/apple-icon.png',
