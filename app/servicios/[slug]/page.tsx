@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
+import type { Metadata } from 'next'
 import { ArrowLeft, CheckCircle2, MessageCircle } from 'lucide-react'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
@@ -8,6 +9,32 @@ import { getService, services } from '@/lib/services'
 
 export function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }))
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
+  const { slug } = await params
+  const service = getService(slug)
+  if (!service) return {}
+
+  const url = `https://geitec-solutions.pe/servicios/${service.slug}`
+
+  return {
+    title: service.title,
+    description: service.description,
+    alternates: {
+      canonical: `/servicios/${service.slug}`,
+    },
+    openGraph: {
+      type: 'article',
+      title: `${service.title} | Geitec Solutions`,
+      description: service.description,
+      url,
+    },
+  }
 }
 
 export default async function ServicioDetallePage({ params }: { params: Promise<{ slug: string }> }) {

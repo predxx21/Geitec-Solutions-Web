@@ -1,7 +1,23 @@
+import type { Metadata } from 'next'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Image from 'next/image'
 import { Award, Heart, Leaf, Target } from 'lucide-react'
+
+export const metadata: Metadata = {
+  title: 'Nosotros',
+  description:
+    'Conoce a Geitec Solutions S.A.C.: empresa de gestión y tecnología ambiental con sede en Huaral, Perú. RUC 20607439681, experiencia, valores y equipo profesional.',
+  alternates: {
+    canonical: '/nosotros',
+  },
+  openGraph: {
+    title: 'Nosotros | Geitec Solutions',
+    description:
+      'Empresa de gestión y tecnología ambiental con sede en Huaral, Perú.',
+    url: 'https://geitec-solutions.pe/nosotros',
+  },
+}
 
 const values = [
   { icon: Target, title: 'Rigor técnico', description: 'Análisis claros para tomar decisiones ambientales informadas.' },

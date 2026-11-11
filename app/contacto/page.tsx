@@ -1,10 +1,24 @@
-'use client'
-
+import type { Metadata } from 'next'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Contact from '@/components/contact'
 import Image from 'next/image'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+
+export const metadata: Metadata = {
+  title: 'Contacto',
+  description:
+    'Contáctanos: teléfono, WhatsApp, correo y dirección en Huaral, Perú. Geitec Solutions responde a tus consultas sobre servicios de consultoría ambiental.',
+  alternates: {
+    canonical: '/contacto',
+  },
+  openGraph: {
+    title: 'Contacto | Geitec Solutions',
+    description:
+      'Teléfono, WhatsApp, correo y dirección de Geitec Solutions en Huaral, Perú.',
+    url: 'https://geitec-solutions.pe/contacto',
+  },
+}
 
 export default function ContactoPage() {
   return (

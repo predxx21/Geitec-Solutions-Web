@@ -1,7 +1,23 @@
+import type { Metadata } from 'next'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Services from '@/components/services'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'Servicios',
+  description:
+    'Servicios de consultoría ambiental en Perú: instrumentos de gestión ambiental, planes y estudios ambientales, agua y saneamiento, residuos sólidos, monitoreo ambiental y seguridad y salud ocupacional.',
+  alternates: {
+    canonical: '/servicios',
+  },
+  openGraph: {
+    title: 'Servicios | Geitec Solutions',
+    description:
+      'Auditorías, estudios, monitoreo y más servicios ambientales en Huaral, Perú.',
+    url: 'https://geitec-solutions.pe/servicios',
+  },
+}
 
 export default function ServiciosPage() {
   return (

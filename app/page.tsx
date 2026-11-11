@@ -1,10 +1,15 @@
-'use client'
-
+import type { Metadata } from 'next'
 import Header from '@/components/header'
 import Hero from '@/components/hero'
 import Carousel from '@/components/carousel'
 import About from '@/components/about'
 import Footer from '@/components/footer'
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+}
 
 export default function Page() {
   return (
