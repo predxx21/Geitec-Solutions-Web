@@ -63,8 +63,11 @@ export default function ContactoPage() {
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-2">Email</h3>
             <p className="text-gray-700 mb-4">Escritos y consultas</p>
-            <a href="mailto:geitec.sac@gmail.com" className="text-emerald-600 font-bold hover:text-emerald-700">
-              geitec.sac@gmail.com
+            <a href="mailto:ehuerta@geitec-solutions.pe" className="block text-emerald-600 font-bold hover:text-emerald-700">
+              ehuerta@geitec-solutions.pe
+            </a>
+            <a href="mailto:jhuerta@geitec-solutions.pe" className="block mt-2 text-emerald-600 font-bold hover:text-emerald-700">
+              jhuerta@geitec-solutions.pe
             </a>
           </div>
 
