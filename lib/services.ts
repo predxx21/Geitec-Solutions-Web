@@ -188,7 +188,9 @@ export const services: Service[] = [
       'Elaboración del Reglamento de Seguridad y Salud en el Trabajo (RISST)',
       'Identificación de Peligros, Evaluación de Riesgos y Medidas de Control (IPERC)',
       'Conformación y asesoría del Comité de Seguridad y Salud en el Trabajo',
-      'Monitoreos e informes ocupacionales (Agentes físicos, químicos, biológicos, disergonómicos y psicosociales)'
+      'Monitoreos e informes ocupacionales (Agentes físicos, químicos, biológicos, disergonómicos y psicosociales)',
+      'Capacitaciones y Entrenamiento en Trabajos de Alto Riesgo, Brigadas de Emergencia',
+      'Conformación de Brigadas de Emergencia'
     ]
   }
 ]
