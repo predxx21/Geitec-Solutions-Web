@@ -48,8 +48,11 @@ Mi consulta es: ${formData.message}`
           <div className="bg-slate-50 rounded-lg p-8 text-center">
             <Mail className="w-10 h-10 text-emerald-600 mx-auto mb-4" />
             <h3 className="font-bold text-slate-900 mb-2">Email</h3>
-            <a href="mailto:geitec.sac@gmail.com" className="text-emerald-600 hover:text-emerald-700 font-semibold">
-              geitec.sac@gmail.com
+            <a href="mailto:ehuerta@geitec-solutions.pe" className="block text-emerald-600 hover:text-emerald-700 font-semibold">
+              ehuerta@geitec-solutions.pe
+            </a>
+            <a href="mailto:jhuerta@geitec-solutions.pe" className="block mt-2 text-emerald-600 hover:text-emerald-700 font-semibold">
+              jhuerta@geitec-solutions.pe
             </a>
           </div>
           <div className="bg-slate-50 rounded-lg p-8 text-center">

@@ -21,7 +21,7 @@ const jsonLd = {
       logo: `${SITE_URL}/icon-512.png`,
       image: `${SITE_URL}/icon-512.png`,
       description: siteDescription,
-      email: 'geitec.sac@gmail.com',
+      email: ['ehuerta@geitec-solutions.pe', 'jhuerta@geitec-solutions.pe'],
       telephone: '+51930996442',
       vatID: '20607439681',
       address: {
@@ -39,7 +39,7 @@ const jsonLd = {
       contactPoint: {
         '@type': 'ContactPoint',
         telephone: '+51930996442',
-        email: 'geitec.sac@gmail.com',
+        email: ['ehuerta@geitec-solutions.pe', 'jhuerta@geitec-solutions.pe'],
         contactType: 'customer service',
         areaServed: 'PE',
         availableLanguage: ['es'],
