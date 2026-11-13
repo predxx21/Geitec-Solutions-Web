@@ -37,6 +37,9 @@ export default function Header() {
             <a href="https://wa.me/51980970529" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition" aria-label="Escribir al WhatsApp +51 980 970 529">
               <span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>+51 980 970 529</span>
             </a>
+            <a href="https://wa.me/51948077982" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition" aria-label="Escribir al WhatsApp +51 948 077 982">
+              <span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>+51 948 077 982</span>
+            </a>
           </div>
 
           <button className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Abrir menú">
@@ -52,6 +55,7 @@ export default function Header() {
             <Link href="/contacto" className="hover:text-emerald-100 transition py-2">Contacto</Link>
             <a href="https://wa.me/51930996442" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition py-2"><span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>WhatsApp: +51 930 996 442</span></a>
             <a href="https://wa.me/51980970529" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition py-2"><span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>WhatsApp: +51 980 970 529</span></a>
+            <a href="https://wa.me/51948077982" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition py-2"><span className="w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center"><Phone size={12} fill="currentColor" className="text-white" /></span><span>WhatsApp: +51 948 077 982</span></a>
           </nav>
         )}
       </div>

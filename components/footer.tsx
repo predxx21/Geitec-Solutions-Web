@@ -30,6 +30,10 @@ export default function Footer() {
                 <Phone size={16} />
                 +51 980 970 529
               </a>
+              <a href="https://wa.me/51948077982" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-400">
+                <Phone size={16} />
+                +51 948 077 982
+              </a>
               <a href="mailto:ehuerta@geitec-solutions.pe" className="flex items-center gap-2 hover:text-emerald-400">
                 <Mail size={16} />
                 ehuerta@geitec-solutions.pe

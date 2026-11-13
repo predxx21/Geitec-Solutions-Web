@@ -42,12 +42,13 @@ const staff = [
     name: 'Ing. Elvis Ever Huerta Núñez',
     title: 'Especialista Ambiental',
     credential: 'CIP: 261462',
-    description: null,
+    description:
+      'Ingeniero ambiental colegiado y habilitado, con maestría en Tratamiento de Aguas Residuales y Reúso desecho (UNI). Especialista en elaboración de instrumentos de Gestión Ambiental, manejo de residuos sólidos, huella de carbono, huella hídrica. Funcionario en instituciones públicas y privadas, en diferentes regiones del país, catedrático universitario y expositor en las diferentes actividades económicas referente a medio ambiente y seguridad y salud en el trabajo.',
     image: '/staff/elvis-huerta.png',
     featured: true,
   },
   {
-    role: 'Sub Gerente General',
+    role: 'Gerente de Operaciones y Medio Ambiente',
     name: 'Juan Pablo Angel Huerta Nuñez',
     title: 'Especialista en Gestión SST y Monitoreo Ambiental',
     credential: null,

@@ -55,6 +55,9 @@ export default function ContactoPage() {
             <a href="https://wa.me/51980970529" target="_blank" rel="noopener noreferrer" className="block mt-2 text-emerald-600 font-bold hover:text-emerald-700">
               +51 980 970 529
             </a>
+            <a href="https://wa.me/51948077982" target="_blank" rel="noopener noreferrer" className="block mt-2 text-emerald-600 font-bold hover:text-emerald-700">
+              +51 948 077 982
+            </a>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition">
@@ -106,10 +109,12 @@ export default function ContactoPage() {
       <section className="max-w-6xl mx-auto px-4 pb-16 -mt-8">
         <div className="rounded-xl bg-slate-100 px-6 py-5 text-center text-slate-700">
           <p className="mb-2"><span className="font-bold text-slate-900">Dirección: </span>José Olaya, Calle Central Mz. E, lote 12 - Huaral</p>
-          <span className="font-bold text-slate-900">Teléfonos corporativos: </span>
-          <a href="tel:+51901975553" className="hover:text-emerald-700">+51 901 975 553</a>
+          <span className="font-bold text-slate-900">Teléfonos: </span>
+          <a href="tel:+51930996442" className="hover:text-emerald-700">+51 930 996 442</a>
           <span className="mx-2">·</span>
-          <a href="tel:+51948133948" className="hover:text-emerald-700">+51 948 133 948</a>
+          <a href="tel:+51980970529" className="hover:text-emerald-700">+51 980 970 529</a>
+          <span className="mx-2">·</span>
+          <a href="tel:+51948077982" className="hover:text-emerald-700">+51 948 077 982</a>
         </div>
       </section>
 
