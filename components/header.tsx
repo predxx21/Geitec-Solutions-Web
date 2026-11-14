@@ -73,9 +73,9 @@ export default function Header() {
                 aria-label="Escribir por WhatsApp"
                 aria-expanded={whatsappOpen}
                 title="WhatsApp"
-                className="w-10 h-10 rounded-full bg-[#25D366] hover:bg-[#1ebe57] flex items-center justify-center shadow-md hover:scale-105 transition"
+                className="w-12 h-12 rounded-full bg-[#25D366] hover:bg-[#1ebe57] flex items-center justify-center shadow-md hover:scale-105 transition"
               >
-                <WhatsAppIcon className="w-5 h-5 text-white" />
+                <WhatsAppIcon className="w-6 h-6 text-white" />
               </button>
 
               {whatsappOpen && (
@@ -108,11 +108,12 @@ export default function Header() {
               href={FACEBOOK_URL}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Visitar nuestra página de Facebook"
+              aria-label="Visitar nuestra página de Facebook de Geitec Solutions"
               title="Facebook"
-              className="w-10 h-10 rounded-full bg-[#1877F2] hover:bg-[#166fe0] flex items-center justify-center shadow-md hover:scale-105 transition"
+              className="h-12 pl-3 pr-4 rounded-full bg-[#1877F2] hover:bg-[#166fe0] flex items-center gap-2 shadow-md hover:scale-105 transition"
             >
-              <FacebookIcon className="w-5 h-5 text-white" />
+              <FacebookIcon className="w-6 h-6 text-white" />
+              <span className="text-sm font-semibold text-white whitespace-nowrap">Geitec - Solutions</span>
             </a>
           </div>
 
@@ -133,7 +134,7 @@ export default function Header() {
               aria-expanded={mobileWhatsappOpen}
               className="flex items-center gap-2 hover:text-emerald-100 transition py-2 text-left"
             >
-              <span className="w-6 h-6 rounded-full bg-[#25D366] flex items-center justify-center shrink-0"><WhatsAppIcon className="w-3.5 h-3.5 text-white" /></span>
+              <span className="w-7 h-7 rounded-full bg-[#25D366] flex items-center justify-center shrink-0"><WhatsAppIcon className="w-4 h-4 text-white" /></span>
               <span>WhatsApp</span>
             </button>
             {mobileWhatsappOpen && (
@@ -146,9 +147,9 @@ export default function Header() {
                 ))}
               </div>
             )}
-            <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition py-2">
-              <span className="w-6 h-6 rounded-full bg-[#1877F2] flex items-center justify-center shrink-0"><FacebookIcon className="w-3.5 h-3.5 text-white" /></span>
-              <span>Facebook</span>
+            <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" aria-label="Visitar nuestra página de Facebook de Geitec Solutions" className="flex items-center gap-2 hover:text-emerald-100 transition py-2">
+              <span className="w-7 h-7 rounded-full bg-[#1877F2] flex items-center justify-center shrink-0"><FacebookIcon className="w-4 h-4 text-white" /></span>
+              <span>Geitec - Solutions</span>
             </a>
           </nav>
         )}
