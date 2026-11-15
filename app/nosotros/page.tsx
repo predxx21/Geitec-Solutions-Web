@@ -132,7 +132,7 @@ export default function NosotrosPage() {
             </dl>
           </div>
           <div className="bg-emerald-700 rounded-2xl p-8 text-white shadow-lg">
-            <h3 className="text-2xl font-bold mb-6">Por qué elegirnos</h3>
+            <h3 className="text-2xl font-bold mb-6">Servicio que ofrecemos:</h3>
             <ul className="space-y-4 text-emerald-50">
               <li className="flex gap-3"><span className="font-bold">✓</span> Instrumentos de gestión ambiental</li>
               <li className="flex gap-3"><span className="font-bold">✓</span> Planes y estudios ambientales</li>

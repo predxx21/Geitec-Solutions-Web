@@ -73,7 +73,7 @@ export default function Header() {
                 aria-label="Escribir por WhatsApp"
                 aria-expanded={whatsappOpen}
                 title="WhatsApp"
-                className="w-12 h-12 rounded-full bg-[#25D366] hover:bg-[#1ebe57] flex items-center justify-center shadow-md hover:scale-105 transition"
+                className="w-12 h-12 rounded-full hover:bg-white/10 flex items-center justify-center transition"
               >
                 <WhatsAppIcon className="w-6 h-6 text-white" />
               </button>
@@ -91,8 +91,8 @@ export default function Header() {
                           onClick={() => setWhatsappOpen(false)}
                           className="flex items-center gap-3 px-4 py-3 hover:bg-emerald-50 transition"
                         >
-                          <span className="w-7 h-7 rounded-full bg-[#25D366]/15 flex items-center justify-center shrink-0">
-                            <WhatsAppIcon className="w-4 h-4 text-[#25D366]" />
+                          <span className="w-7 h-7 rounded-full bg-emerald-700 flex items-center justify-center shrink-0">
+                            <WhatsAppIcon className="w-4 h-4 text-white" />
                           </span>
                           <span className="text-sm font-semibold">{number.label}</span>
                         </a>
@@ -110,10 +110,10 @@ export default function Header() {
               rel="noopener noreferrer"
               aria-label="Visitar nuestra página de Facebook de Geitec Solutions"
               title="Facebook"
-              className="h-12 pl-3 pr-4 rounded-full bg-[#1877F2] hover:bg-[#166fe0] flex items-center gap-2 shadow-md hover:scale-105 transition"
+              className="flex items-center gap-2 hover:opacity-80 transition"
             >
               <FacebookIcon className="w-6 h-6 text-white" />
-              <span className="text-sm font-semibold text-white whitespace-nowrap">Geitec - Solutions</span>
+              <span className="text-sm font-bold text-white whitespace-nowrap">Geitec - Solutions</span>
             </a>
           </div>
 
@@ -134,21 +134,21 @@ export default function Header() {
               aria-expanded={mobileWhatsappOpen}
               className="flex items-center gap-2 hover:text-emerald-100 transition py-2 text-left"
             >
-              <span className="w-7 h-7 rounded-full bg-[#25D366] flex items-center justify-center shrink-0"><WhatsAppIcon className="w-4 h-4 text-white" /></span>
+              <span className="w-7 h-7 flex items-center justify-center shrink-0"><WhatsAppIcon className="w-4 h-4 text-white" /></span>
               <span>WhatsApp</span>
             </button>
             {mobileWhatsappOpen && (
               <div className="flex flex-col gap-1 border-l-2 border-emerald-400/50 ml-3 pl-3">
                 {whatsappNumbers.map((number) => (
                   <a key={number.href} href={number.href} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-100 transition py-1.5 text-sm">
-                    <WhatsAppIcon className="w-4 h-4 text-[#25D366] shrink-0" />
+                    <span className="w-5 h-5 flex items-center justify-center shrink-0"><WhatsAppIcon className="w-3 h-3 text-white" /></span>
                     <span>{number.label}</span>
                   </a>
                 ))}
               </div>
             )}
             <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" aria-label="Visitar nuestra página de Facebook de Geitec Solutions" className="flex items-center gap-2 hover:text-emerald-100 transition py-2">
-              <span className="w-7 h-7 rounded-full bg-[#1877F2] flex items-center justify-center shrink-0"><FacebookIcon className="w-4 h-4 text-white" /></span>
+              <span className="w-7 h-7 flex items-center justify-center shrink-0"><FacebookIcon className="w-4 h-4 text-white" /></span>
               <span>Geitec - Solutions</span>
             </a>
           </nav>
